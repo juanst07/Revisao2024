@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Delício Pão - Padaria</title>
+    <!-- Link para o Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link para o CSS personalizado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Delício Pão</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cardapio">Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção de Banner -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Bem-vindo à Padaria Delício Pão</h1>
+            <p>O melhor pão caseiro da cidade! Frescor, sabor e qualidade todos os dias.</p>
+        </div>
+    </header>
+
+    <!-- Seção Sobre Nós -->
+    <section id="sobre" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Sobre Nós</h2>
+            <p class="text-center">A Padaria Delício Pão começou com o sonho de oferecer pães e produtos de panificação feitos com carinho e dedicação. Utilizamos receitas tradicionais, ingredientes frescos e um toque de amor em cada produto.</p>
+        </div>
+    </section>
+
+    <!-- Seção Cardápio -->
+    <section id="cardapio" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Nosso Cardápio</h2>
+            <div class="row">
+                 <!-- Produto 1 -->
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/cafe-expresso.jpg" class="card-img-top" alt="Salgado Assado">
+                        <div class="card-body">
+                            <h5 class="card-title">Café Expresso</h5>
+                            <p class="card-text">Café expresso artesanal, preparado com grãos selecionados para oferecer o sabor mais intenso e encorpado. Ideal para acompanhar qualquer momento do dia.</p>
+                            <p class="card-text"><strong>R$ 6,00</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Produto 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/empada.jpg" class="card-img-top" alt="Salgado Assado">
+                        <div class="card-body">
+                            <h5 class="card-title">Empada</h5>
+                            <p class="card-text">Massa crocante e recheio saboroso, a empada é uma opção prática e deliciosa para qualquer momento do dia.</p>
+                            <p class="card-text"><strong>R$ 3,00</strong></p>
+                        </div>
+                    </div>
+                </div>
+                  <!-- Produto 3 -->
+                  <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/bolo de choco.jpg" class="card-img-top" alt="Bolo de Chocolate">
+                        <div class="card-body">
+                            <h5 class="card-title">Bolo de Chocolate</h5>
+                            <p class="card-text">Bolo fofinho e recheado com ganache de chocolate, ideal para quem ama uma sobremesa deliciosa e caseira.</p>
+                            <p class="card-text"><strong>R$ 15,00</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Produto 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/bolo de cenou.png" class="card-img-top" alt="Salgado Assado">
+                        <div class="card-body">
+                            <h5 class="card-title">Bolo de Cenoura com Cobertura de Chocolate</h5>
+                            <p class="card-text">Bolo caseiro de cenoura fofinho, coberto com uma deliciosa camada de chocolate derretido. Perfeito para um lanche da tarde ou para presentear.</p>
+                            <p class="card-text"><strong>R$ 12,00</strong></p>
+                        </div>
+                    </div>
+                </div>
+                  <!-- Produto 5 -->
+                  <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/pao.jpg" class="card-img-top" alt="Pão francês">
+                        <div class="card-body">
+                            <h5 class="card-title">Pão Francês</h5>
+                            <p class="card-text">Fresquinho e crocante, o pão francês é a escolha clássica para acompanhar seu café da manhã ou lanche.</p>
+                            <p class="card-text"><strong>R$ 5,00</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Produto 6 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/suco-de-laranja.jpeg" class="card-img-top" alt="Salgado Assado">
+                        <div class="card-body">
+                            <h5 class="card-title">Suco Natural de Laranja</h5>
+                            <p class="card-text">Refrescante suco de laranja natural, feito na hora, sem conservantes. Perfeito para acompanhar o seu pãozinho ou bolo da manhã.</p>
+                            <p class="card-text"><strong>R$ 3,00</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Entre em Contato</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Chmaca Delício Pão. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Scripts Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
